@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Contact Us</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <!-- MDB -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body style="background: #000;">
+    <style>
+      a.contactlink{
+          color: #01C9EB !important;
+          background-color: #fff;
+      }
+  </style>
+
+    <!-- Header -->
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+               
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+   <!--end of Navigation bar-->
+  
+    <section class="contactmain heromainbody py-5">
+        <div class="container">
+          
+            <div class="row my-5 py-5 justify-content-center align-items-center aboutctahead text-center text-white ">
+                <div class="col-sm-7">
+                    <div class="contacttitle fontexo ">
+                    <h1>Contact Us</h1>
+                    <img class="w-50"  src="img/stroke.png" alt="">
+                    </div>
+                    <div class="contactdetails">
+                    
+                        <div class="phoneno my-4 spanorange wow animate__animated  animate__backInLeft">
+                            <i class="fa fa-phone text-white " style="font-size:2rem;" aria-hidden="true"></i> &nbsp; &nbsp; <span><b>+61 (0) 438 325 294</b> </span>
+                        </div>
+                        <div class="emailadd my-4 spanorange wow animate__animated  animate__backInRight">
+                            <i class="fa fa-envelope text-white" aria-hidden="true"style="font-size:2rem;"></i> &nbsp; &nbsp; <span><b>kent@uwinspection.com.au</b></span>
+                        </div>
+                        <div class="maploc my-4 spanorange wow animate__animated  animate__backInLeft">
+                            <i class="fa fa-map-marker text-white" aria-hidden="true"style="font-size:2rem;"></i> &nbsp; &nbsp; <span><b>50 Guelph St, Somerville VIC 3912, Australia</b></span>
+                        </div>
+
+                        <style>
+                            .phoneno,.emailadd,.maploc{
+                                font-size: 1.2rem;
+                            }
+                        </style>
+                    </div>
+                </div>               
+            </div>
+        </div>
+     
+    </section>
+    <div class="container my-4 py-3 contactcontent text-center text-white wow animate__animated animate__fadeInUp">
+        <p>Let us help you navigate the world of underwater inspection and discuss your options to ensure you’re making the right decision for your business and mission. Our trained specialists are standing by to help you get back on the right track. Simply fill in the contact form, and we’ll make sure you hear from us as soon as possible. 
+
+        </p>
+    </div>
+
+
+    <section class="mt-4 py-3">
+        <div class="container py-3 wow animate__animated animate__fadeInUp">
+            <div class="contacttitle fontexo text-center text-white ">
+                <h1>Contact Us</h1>
+                <img class="w-50"  src="img/stroke.png" alt="">
+                </div>
+            <div class="row py-5 justify-content-center align-items-center aboutctahead text-center text-white ">
+                <div class="col-sm-7">
+                    <div class="container-fluid">
+                      <form id="serviceform" action="" method="POST">
+
+                        <div class="row justify-content-around text-left">
+                          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <div class="form-group ">
+                              <label for="fname" class="fontexo">First Name</label>
+                              <input id="fname" class="form-control fontexo" type="text">
+                            </div>
+                          </div>
+                          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <div class="form-group">
+                              <label for="email" class="fontexo">Email</label>
+                              <input id="email" class="form-control fontexo" type="email">
+                            </div>
+                          </div>
+                          <div class="col-xs-12  col-sm-6 col-md-4 col-lg-4">
+                            <div class="form-group">
+                              <label for="lname" class="fontexo" >Phone No.</label>
+                              <input id="callback_phone" type="tel" name="phone" class="form-control fontexo" placeholder="" required="required">
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="row text-left">
+                          <div class="col-12">
+                            <div class="form-group ">    
+                                <label for="subject" class="fontexo">Service Type</label>
+                                <select placeholder="Subject line" class="form-control fontexo" name="subject" id="subject_input" required>
+                                  <option disabled hidden selected>What you need ?</option>
+                                  <option>Road Bridges</option>
+                                  <option>Rail Bridges</option>
+                                  <option>Oil Rigs</option>
+                                  <option>Wharves and jetties</option>
+                                  <option>Shipwrecks</option>
+                                  <option>Undersea Cables</option>
+                                </select>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="row text-left">
+                          <div class="col-12">
+                            <div class="form-group">
+                              <label for="message"class="fontexo">Message</label>
+                              <textarea class="form-control fontexo" id="message" rows="3"></textarea>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="orangebtn fontexo row justify-content-left m-1">
+                            <a href="#" onclick="document.getElementById('serviceform').submit();" class="fontexo">Contact Our Team</a>
+                        </div>
+                        
+                      </form>
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+      
+
+    <!--Footer-->
+    <div id="footer-placeholder">
+              
+    </div>
+    
+    <script>
+    $(function(){
+      $("#footer-placeholder").load("footer.html");
+    });
+    </script>
+  <!--Footer-->
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html

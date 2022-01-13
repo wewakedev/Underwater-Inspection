@@ -19,12 +19,12 @@ h1,h2,h3,h4,h5,h6{
 .quicklinks ul li{
   margin-bottom: 1.5rem;
 }
-/* @media (max-width: 576px) {
-  h1,h2,h3,h4,h5,h6,p{
-    font-size: 90% !important;
+ @media (max-width: 576px) {
+  img.uwislogo {
+    width: 6rem !important;
   }
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   h1,h2,h3,h4,h5,h6{
     font-size: 80% !important;
   }
@@ -178,6 +178,7 @@ height: 100%;
 .right_modal .modal-dialog {
   max-width: 100%;
 }
+
 }
 .modal.right_modal .modal-content {
 /*overflow-y: auto;

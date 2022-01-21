@@ -275,7 +275,7 @@ background-color:
    height: 100vh;
  }
 
- .carousel-item:nth-child(1) {
+ /* .carousel-item:nth-child(1) {
    background-image: url('img/homeslide1.jpg');
    background-repeat: no-repeat;
    background-size: cover;
@@ -286,7 +286,7 @@ background-color:
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-  }
+  } */
  .servicemain{
   background-image: url('img/serviceherobg.jpg'),linear-gradient(0deg, #000000 23.84%, rgba(0, 0, 0, 0) 100%);
   /* background-attachment: fixed; */
@@ -484,6 +484,12 @@ background-color:
   position: relative;
   overflow: hidden;
 }
+.homevideo-container{
+  height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
 
 video {
   -o-object-fit: cover;
@@ -519,6 +525,18 @@ video {
   z-index: 2;
   margin: auto;
 }
+.callouthome{
+      /* position: relative; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    /* text-align: center; */
+    position: relative;
+    z-index: 2;
+    margin: auto;
+}
+
 .phoneno,.emailadd,.maploc{
   font-size: 1.2rem;
 }

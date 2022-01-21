@@ -129,77 +129,19 @@
     </section>
     
 
-    <section class="aboutcta mt-4 py-3 ">
-        <div class="container py-3 wow animate__animated animate__slideInLeft">
-          <div class="contacttitle fontexo text-white">
-            <h2>SEND A MESSAGE</h2>
-          </div>
-            <div class="row py-5 justify-content-left align-items-center aboutctahead text-center text-white ">
-                <div class="col-sm-7">
-                    <div class="container-fluid">
-                      <form id="serviceform" action="" method="POST">
+    <!--ContactForm-->
+    <div id="uwisform">
+              
+    </div>
+    
+    <script>
+    $(function(){
+      $("#uwisform").load("form.html");
+    });
+    </script>
+  <!--ContatForm---->
 
-                        <div class="row justify-content-around text-left">
-                          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <div class="form-group ">
-                              <label for="fname" class="fontexo">First Name</label>
-                              <input id="fname" class="form-control fontexo" type="text">
-                            </div>
-                          </div>
-                          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <div class="form-group">
-                              <label for="email" class="fontexo">Email</label>
-                              <input id="email" class="form-control fontexo" type="email">
-                            </div>
-                          </div>
-                          <div class="col-xs-12  col-sm-6 col-md-4 col-lg-4">
-                            <div class="form-group">
-                              <label for="lname" class="fontexo" >Phone No.</label>
-                              <input id="callback_phone" type="tel" name="phone" class="form-control fontexo" placeholder="" required="required">
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div class="row text-left">
-                          <div class="col-12">
-                            <div class="form-group ">    
-                                <label for="subject" class="fontexo">Service Type</label>
-                                <select placeholder="Subject line" class="form-control fontexo" name="subject" id="subject_input" required>
-                                  <option disabled hidden selected>What you need ?</option>
-                                  <option>Road Bridges</option>
-                                  <option>Rail Bridges</option>
-                                  <option>Oil Rigs</option>
-                                  <option>Wharves and jetties</option>
-                                  <option>Shipwrecks</option>
-                                  <option>Undersea Cables</option>
-                                </select>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div class="row text-left">
-                          <div class="col-12">
-                            <div class="form-group">
-                              <label for="message"class="fontexo">Message</label>
-                              <textarea class="form-control fontexo" id="message" rows="3"></textarea>
-                            </div>
-                          </div>
-                        </div>
-
-
-                        <div class="orangebtn fontexo row justify-content-left m-1">
-                            <a href="#" onclick="document.getElementById('serviceform').submit();" class="fontexo">Contact Our Team</a>
-                        </div>
-                        
-                      </form>
-                        
-                        
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
+    
       
 
      <!--Footer-->

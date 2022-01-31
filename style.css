@@ -27,7 +27,6 @@ h1,h2,h3,h4,h5,h6{
 
   .content-details p{
     color: #fff;
-    font-size: 0.7rem !important;
   }
 }
 /*@media (min-width: 768px) {
@@ -48,16 +47,16 @@ h1,h2,h3,h4,h5,h6{
 
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 1.5rem !important;
+    font-size: 1.6rem !important;
   }
 	 h2 {
-    font-size: 1.2rem !important;
+    font-size: 1.4rem !important;
   }
   h3{
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
   }
  p {
-    font-size: .7rem !important;
+    font-size: .9rem !important;
   }
 }
 
@@ -311,12 +310,9 @@ background-color:
    background-size: cover;
    background-position: center center;
  } */
- /* #heroslider{
-  background: url('img/homebgfinal.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
- } */
+ #heroslider {
+  overflow: hidden;
+ }
  /* .carousel-item {
 	background-image: url('../img/homebgfinal.png');
 	background-repeat: no-repeat;

@@ -126,9 +126,27 @@ a.nav-item:hover,.spanblue{
   height: 100vh;
 } */
 
-.row.slidercontent {
+/* @media (max-width: 550px) {
+
+	h1{
+		font-size: 1.7rem !important;
+	}
+	h2{
+		font-size: 1.4rem !important;
+	}
+	h3{
+		font-size: 1.2rem !important;
+	}
+	h4{
+		font-size: 1rem;
+	}
+	p{
+		font-size: 80%;
+	}
+  } */
+/* .row.slidercontent {
   width: 75%;
-}
+} */
 .carousel-control-next, .carousel-control-prev {
   bottom: -65% !important;
 }
@@ -280,13 +298,13 @@ background-color:
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
- }
+ } */
  .carousel-item {
-	background-image: url('img/homeslide2.jpg');
+	background-image: url('img/homebgfinal.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-  } */
+  }
  .servicemain{
   background-image: url('img/serviceherobg.jpg'),linear-gradient(0deg, #000000 23.84%, rgba(0, 0, 0, 0) 100%);
   /* background-attachment: fixed; */
@@ -312,10 +330,11 @@ background-color:
  .heromainbody{
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top;
   min-height: 600px;
   mix-blend-mode: normal;
   font-family: Exo 2;
+  width: 100%;
   font-style: normal;
   font-weight: 500;
   line-height: 36px;

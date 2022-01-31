@@ -12,6 +12,7 @@ html,body{
 }
 h1,h2,h3,h4,h5,h6{
   font-size: 100%;
+  font-family: 'Exo 2', sans-serif !important;
 }
 .quicklinks {
   margin-left: 8vw;
@@ -51,6 +52,9 @@ h1,h2,h3,h4,h5,h6{
   }
 	 h2 {
     font-size: 1.2rem !important;
+  }
+  h3{
+    font-size: 1rem !important;
   }
  p {
     font-size: .7rem !important;
@@ -101,10 +105,18 @@ span b{
   font-family: 'Exo 2', sans-serif ; 
   letter-spacing: .1rem;
 }
+span{
+  font-family: 'Exo 2', sans-serif ; 
+}
 
 .spanorange{
   color: #F96900;
   font-family: 'Exo 2', sans-serif;
+  font-weight: 500 !important;
+}
+.spanblue{
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 500 !important;
 }
 .mainnav{
   z-index: 9 !important;

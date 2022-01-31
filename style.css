@@ -375,6 +375,9 @@ background-color:
  ul.spanorange {
   margin-left: 1rem;
 }
+ul.spanorange li{
+  font-family: 'Exo 2' , sans-serif;
+}
  .aboutteamsideimage{
 	background-attachment: fixed;
 	background-position: center;

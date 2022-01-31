@@ -312,7 +312,7 @@ background-color:
    background-position: center center;
  } */
  #heroslider{
-  background-image: url('../img/homebgfinal.png');
+  background: url('img/homebgfinal.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;

@@ -300,7 +300,7 @@ background-color:
    background-position: center center;
  } */
  .carousel-item {
-	background-image: url('img/homebgfinal.png');
+	background-image: url('../img/homebgfinal.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;

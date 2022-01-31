@@ -299,12 +299,18 @@ background-color:
    background-size: cover;
    background-position: center center;
  } */
- .carousel-item {
+ #heroslider{
+  background-image: url('../img/homebgfinal.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+ }
+ /* .carousel-item {
 	background-image: url('../img/homebgfinal.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-  }
+  } */
  .servicemain{
   background-image: url('img/serviceherobg.jpg'),linear-gradient(0deg, #000000 23.84%, rgba(0, 0, 0, 0) 100%);
   /* background-attachment: fixed; */
